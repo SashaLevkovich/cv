@@ -1,0 +1,12 @@
+@import './styles/common.css';
+@import './styles/reset.css';
+@import './styles/welcome.css';
+@import './styles/aboutMe.css';
+@import './styles/skills.css';
+@import './styles/nav.css';
+@import './styles/waves.css';
+@import './styles/facts.css';
+@import './styles/contacts.css';
+@import './styles/memes.css';
+
+@import './styles/adaptive.css';

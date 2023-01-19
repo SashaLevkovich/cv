@@ -1,0 +1,15 @@
+.facts {
+    width: 100%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.facts__title {
+    margin-bottom: 55px;
+}
+
+.facts__title img {
+    margin-top: 15px;
+}

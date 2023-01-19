@@ -1,0 +1,52 @@
+.navbar {
+    width: 100%;
+    max-height: 50px;
+    padding: 0;
+
+    display: flex;
+    background-color: var(--background-color);
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar.sticky {
+    position: sticky;
+    top: 10px;
+    background-color: transparent;
+
+    z-index: 1000;
+}
+
+.navbar.sticky .navbar__container .navbar__links {
+    background-color: var(--nav-background-color);
+}
+
+.burger {
+    display: none;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__container .navbar__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 1rem 1.56rem;
+    border-radius: 30px;
+}
+
+.navbar__container .navbar__links .navbar__link > a {
+    color: var(--text-color);
+    transition: all 0.3s;
+}
+
+.navbar__container .navbar__links .navbar__link > a:hover {
+    color: var(--contrast-color);
+
+    transition: all 0.3s;
+}
